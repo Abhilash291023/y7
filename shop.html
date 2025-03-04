@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - E-Commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .card {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+        .card-body {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">E-Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="deals.html">Deals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="laptop.jpg" class="card-img-top" alt="Laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop</h5>
+                        <p class="card-text">High-performance laptop for work and gaming.</p>
+                        <p><strong>Price: </strong>$999.00</p>
+                        <a href="details.html" class="btn btn-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch.jpg" class="card-img-top" alt="Smartwatch">
+                    <div class="card-body">
+                        <h5 class="card-title">Smartwatch</h5>
+                        <p class="card-text">Track fitness and stay connected on the go.</p>
+                        <p><strong>Price: </strong>$199.00</p>
+                        <a href="details.html" class="btn btn-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="earbuds.jpg" class="card-img-top" alt="Wireless Earbuds">
+                    <div class="card-body">
+                        <h5 class="card-title">Wireless Earbuds</h5>
+                        <p class="card-text">Crystal-clear sound and noise cancellation.</p>
+                        <p><strong>Price: </strong>$129.00</p>
+                        <a href="details.html" class="btn btn-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-5">
+        <p>&copy; 2025 E-Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

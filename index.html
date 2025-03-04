@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-Commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .carousel-item img {
+            height: 600px;
+            object-fit: cover;
+        }
+        .category img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">E-Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="details.html">Deals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="laptop.jpg" class="d-block w-100" alt="Laptop">
+            </div>
+            <div class="carousel-item">
+                <img src="watch.jpg" class="d-block w-100" alt="Smartwatch">
+            </div>
+            <div class="carousel-item">
+                <img src="earbuds.jpg" class="d-block w-100" alt="Earbuds">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container text-center mt-5">
+        <h1>Welcome to E-Shop</h1>
+        <p>Your one-stop destination for quality products at the best prices.</p>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Shop by Category</h2>
+        <div class="row">
+            <div class="col-md-4 text-center category">
+                <img src="electronics.jpg" class="img-fluid" alt="Electronics">
+                <h5>Electronics</h5>
+            </div>
+            <div class="col-md-4 text-center category">
+                <img src="fashion.jpg" class="img-fluid" alt="Fashion">
+                <h5>Fashion</h5>
+            </div>
+            <div class="col-md-4 text-center category">
+                <img src="accessories.jpg" class="img-fluid" alt="Accessories">
+                <h5>Accessories</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="laptop.jpg" class="card-img-top" alt="Laptop">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop</h5>
+                        <p class="card-text">High-performance laptop for work and play.</p>
+                        <p><strong>Price: </strong>$999.00</p>
+                        <a href="details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="watch.jpg" class="card-img-top" alt="Smartwatch">
+                    <div class="card-body">
+                        <h5 class="card-title">Smartwatch</h5>
+                        <p class="card-text">Track fitness and notifications on the go.</p>
+                        <p><strong>Price: </strong>$199.00</p>
+                        <a href="details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="earbuds.jpg" class="card-img-top" alt="Wireless Earbuds">
+                    <div class="card-body">
+                        <h5 class="card-title">Wireless Earbuds</h5>
+                        <p class="card-text">Crystal-clear sound with noise cancellation.</p>
+                        <p><strong>Price: </strong>$149.00</p>
+                        <a href="details.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center mt-5">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest deals and updates.</p>
+        <form class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-5">
+        <p>&copy; 2025 E-Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
